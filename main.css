@@ -1,0 +1,38 @@
+body {
+    max-width: 780px;
+    margin: 0 auto;
+    border: 15px solid #FF37F7;
+}
+.div-navbar-left {
+    border: 1px solid black;
+    display: inline-block;
+    text-align: left;
+    width: 70%;
+}
+.navbar-left {
+    /*border: 1px solid black;*/
+}
+.navbar-left  ul {
+    list-style-type: none;
+    padding-left: 10px;
+}
+.navbar-left li {
+    display: inline;
+}
+.navbar-left a {
+    text-decoration: none;
+    text-transform: uppercase;
+}
+.logo-right {
+    /*direction: rtl;*/
+    display: inline;
+    border: 1px solid black;
+    text-align: right;
+    width: 30%;
+}
+.logo-right img {
+    display: inline-block;
+}
+footer {
+    text-align: center;
+}
