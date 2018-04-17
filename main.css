@@ -4,7 +4,7 @@ body {
     border: 2px solid #FF37F7;
 }
 .top-content {
-    border: 1px solid #000;
+    /*border: 1px solid #000;*/
 }
 .div-navbar-left {
     border: 1px solid black;
@@ -14,14 +14,15 @@ body {
     width: 70%;
     height: 70px;
     max-height: 70px;
+    padding-top: 10px;
 }
 .navbar-left {
 }
 .navbar-left  ul {
+    border: 1px solid black;
     list-style-type: none;
     min-width: 212px; /* nie przerzuca tekstu */
-    margin: 0;
-    padding: 0;
+    text-align: left;
 }
 .navbar-left li {
     display: inline;
@@ -45,7 +46,7 @@ body {
 
 }
 .logo-right img {
-
+    margin-top: 24px; /* not working */
 }
 footer {
     text-align: center;
