@@ -11,19 +11,17 @@ body {
     display: inline-block;
     position: fixed;
     margin-left: 10px;
-    text-align: left;
     width: 70%;
     height: 70px;
     max-height: 70px;
-
 }
 .navbar-left {
-
 }
 .navbar-left  ul {
     list-style-type: none;
-    min-width: 212px;
-    padding: auto 0 auto 0;
+    min-width: 212px; /* nie przerzuca tekstu */
+    margin: 0;
+    padding: 0;
 }
 .navbar-left li {
     display: inline;
@@ -47,10 +45,9 @@ body {
 
 }
 .logo-right img {
-    margin: 0;
-    padding: 0;
 
 }
 footer {
     text-align: center;
+    margin-top: 2500px;
 }
