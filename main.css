@@ -6,19 +6,21 @@ body {
 .top-content {
     height: 70px;
     border: 1px solid black;
+    display: inline-block;
+    width: 780px;
+    position: fixed;
 }
 .div-navbar-left {
     border: 1px solid black;
     /*display: inline-block;*/
-    position: fixed;
-    margin-left: 10px;
-    width: 600px;
+    /*position: fixed;*/
+    /*margin-left: 10px;*/
+    /*width: 600px;*/
     height: 60px;
     padding-top: 10px;
+    width: 80%;
 }
 .navbar-left {
-
-
 }
 .navbar-left  ul {
     list-style-type: none;
