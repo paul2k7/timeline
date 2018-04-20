@@ -3,54 +3,81 @@ body {
     margin: 0 auto;
     border: 2px solid #FF37F7;
 }
+
 .top-content {
-    height: 70px;
+    height: 68px;
     border: 1px solid black;
     display: inline-block;
     width: 780px;
     position: fixed;
+    background-color: #D1D1D1;
+    -webkit-box-shadow: 0px 2px 9px -1px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 2px 9px -1px rgba(0,0,0,0.75);
+    box-shadow: 0px 2px 9px -1px rgba(0,0,0,0.75);
 }
+
 .div-navbar-left {
     border: 1px solid black;
-    /*display: inline-block;*/
-    /*position: fixed;*/
-    /*margin-left: 10px;*/
-    /*width: 600px;*/
-    height: 60px;
-    padding-top: 10px;
-    width: 80%;
+    display: inline-block;
+    height: 68px;
+    width: 70%;
 }
+
 .navbar-left {
 }
+
 .navbar-left  ul {
     list-style-type: none;
     min-width: 212px; /* nie przerzuca tekstu */
-    text-align: left;
+    /*text-align: left;*/
+
 }
+
 .navbar-left li {
     display: inline;
 }
+
 .navbar-left a {
     color: black;
     text-decoration: none;
     text-transform: uppercase;
-    margin-right: 70px;
+    margin-right: 50px;
     padding: 10px;
 }
+
 .navbar-left a:hover {
     color: #7F7F7E
 }
+
 .div-logo-right {
     /*direction: rtl;*/
     display: inline-block;
     border: 1px solid black;
     margin-right: 10px;
-    height: 70px;
+    height: 68px;
     float: right;
 }
+
 .logo-right img {
 }
+
+#jesien {
+    margin-top: 200px;
+}
+
+#zima {
+    margin-top: 1400px
+}
+
+#wiosna {
+    margin-top: 1800px;
+}
+
+#lato {
+    margin-top: 2200px;
+}
+
 footer {
     text-align: center;
-    margin-top: 2500px;
+    margin-top: 2400px;
 }
