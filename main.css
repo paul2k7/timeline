@@ -42,7 +42,10 @@ body {
     text-decoration: none;
     text-transform: uppercase;
     margin-right: 50px;
-    padding: 10px;
+    display: inline-block;
+    width: 70px;
+    height: 35px;
+    text-align: center;
 }
 
 .navbar-left a:hover {
